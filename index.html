@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="GamerZone Store: periféricos, accesorios y equipos gamer de alto rendimiento." />
+  <title>GamerZone Store</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#inicio" class="logo" aria-label="GamerZone Store, ir al inicio">
+        <span class="logo-icon">🎮</span>
+        <span>GAMER<span>ZONE</span><small>STORE</small></span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#ofertas">Ofertas</a>
+        <a href="#marcas">Marcas</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <a class="btn btn-primary nav-cta" href="#catalogo">Ver catálogo</a>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="hero-overlay"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">#1 en equipos gamer</span>
+          <h1>
+            Todo lo que necesitas para llevar
+            <span>tu juego al siguiente nivel</span>
+          </h1>
+          <p>
+            Periféricos, accesorios y equipos de alto rendimiento para gamers,
+            streamers y creadores de contenido.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#catalogo">Explorar productos</a>
+            <a class="btn btn-outline" href="#ofertas">Ver promociones</a>
+          </div>
+
+          <div class="benefits" aria-label="Beneficios de compra">
+            <div><strong>🚚 Envíos</strong><span>A todo el país</span></div>
+            <div><strong>🛡️ Garantía</strong><span>Productos originales</span></div>
+            <div><strong>🎧 Soporte</strong><span>Asesoría personalizada</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Setup gamer de alto rendimiento">
+          <div class="glow glow-one"></div>
+          <div class="glow glow-two"></div>
+          <img
+            src="https://images.unsplash.com/photo-1603481546238-487240415921?auto=format&fit=crop&w=1200&q=85"
+            alt="Computadora gamer con iluminación RGB"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="catalogo">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Catálogo</span>
+            <h2>Nuestros <span>productos</span></h2>
+          </div>
+          <a href="#contacto" class="text-link">Ver todo el catálogo →</a>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <button class="favorite" aria-label="Agregar mouse gamer a favoritos">♡</button>
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=800&q=80" alt="Mouse gamer negro">
+            </div>
+            <div class="product-content">
+              <h3>Mouse Gamer Logitech G502</h3>
+              <p>25,600 DPI · RGB · 11 botones</p>
+              <div class="product-bottom">
+                <strong>S/ 219.00</strong>
+                <button aria-label="Añadir mouse al carrito">🛒</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <button class="favorite" aria-label="Agregar teclado a favoritos">♡</button>
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80" alt="Teclado mecánico con iluminación RGB">
+            </div>
+            <div class="product-content">
+              <h3>Teclado Mecánico Redragon</h3>
+              <p>Switch Red · RGB · Anti-Ghosting</p>
+              <div class="product-bottom">
+                <strong>S/ 189.00</strong>
+                <button aria-label="Añadir teclado al carrito">🛒</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <button class="favorite" aria-label="Agregar audífonos a favoritos">♡</button>
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1599669454699-248893623440?auto=format&fit=crop&w=800&q=80" alt="Audífonos gamer negros">
+            </div>
+            <div class="product-content">
+              <h3>Audífonos HyperX Cloud II</h3>
+              <p>Sonido 7.1 · Micrófono desmontable</p>
+              <div class="product-bottom">
+                <strong>S/ 299.00</strong>
+                <button aria-label="Añadir audífonos al carrito">🛒</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <button class="favorite" aria-label="Agregar monitor a favoritos">♡</button>
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80" alt="Monitor gamer de escritorio">
+            </div>
+            <div class="product-content">
+              <h3>Monitor ASUS ROG 27” 240Hz</h3>
+              <p>IPS · 240Hz · 1ms · G-Sync</p>
+              <div class="product-bottom">
+                <strong>S/ 999.00</strong>
+                <button aria-label="Añadir monitor al carrito">🛒</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section performance" id="ofertas">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Ofertas destacadas</span>
+            <h2>Equipos de <span>alto rendimiento</span></h2>
+          </div>
+        </div>
+
+        <div class="offers-grid">
+          <article class="featured-product">
+            <img src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=1000&q=80" alt="Monitor gamer en un escritorio">
+            <div class="featured-info">
+              <span class="tag">-18%</span>
+              <h3>Monitor Gamer 27” 240Hz</h3>
+              <h4>ASUS ROG STRIX</h4>
+              <ul>
+                <li>27 pulgadas IPS</li>
+                <li>Resolución Full HD</li>
+                <li>240Hz de tasa de refresco</li>
+                <li>1ms de tiempo de respuesta</li>
+                <li>Compatible con G-Sync</li>
+              </ul>
+              <p class="old-price">S/ 1,699.00</p>
+              <div class="price-row">
+                <strong>S/ 1,399.00</strong>
+                <a class="btn btn-primary" href="#contacto">Comprar ahora</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="promo-card">
+            <span class="promo-kicker">🔥 Promoción de la semana</span>
+            <p>Hasta</p>
+            <strong>30<span>%</span></strong>
+            <h3>OFF</h3>
+            <p>En periféricos seleccionados Logitech, Razer y más.</p>
+            <a class="btn btn-success" href="#catalogo">Ver ofertas</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section brands" id="marcas">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Marcas</span>
+            <h2>Trabajamos con las <span>mejores marcas</span></h2>
+          </div>
+        </div>
+
+        <div class="brand-grid" aria-label="Marcas comercializadas">
+          <div><img src="images/logitech.png" alt=""></div>
+          <div><img src="images/asus.png" alt=""></div>
+          <div><img src="images/hyperx.png" alt=""></div>
+          <div><img src="images/redragon.png" alt=""></div>
+          <div><img src="images/razer.jpg" alt=""></div>
+          <div><img src="images/corsair.png" alt=""></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section business">
+      <div class="container business-card">
+        <div class="business-image">
+          <img src="https://images.unsplash.com/photo-1547394765-185e1e68f34e?auto=format&fit=crop&w=1200&q=80" alt="Sala con computadoras gamer">
+        </div>
+
+        <div class="business-content">
+          <span class="eyebrow">Soluciones corporativas</span>
+          <h2>Soluciones para empresas e instituciones</h2>
+          <p>
+            Equipamos espacios gamer, salas de cómputo y laboratorios con productos de alto rendimiento.
+          </p>
+
+          <div class="business-types">
+            <span>🏢 Empresas</span>
+            <span>🏫 Instituciones</span>
+            <span>🎮 Gaming Centers</span>
+            <span>💻 Laboratorios</span>
+          </div>
+        </div>
+
+        <div class="quote-box">
+          <h3>¿Necesitas equipar tu espacio?</h3>
+          <p>Solicita una cotización personalizada y sin compromiso.</p>
+          <a class="btn btn-primary" href="#contacto">Solicitar cotización</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contacto">
+      <div class="container contact-grid">
+        <div>
+          <span class="eyebrow">Contacto</span>
+          <h2>¿Necesitas ayuda? <span>Estamos para ti</span></h2>
+
+          <div class="contact-list">
+            <p><strong>WhatsApp</strong><br>+51 987 654 321</p>
+            <p><strong>Email</strong><br>ventas@gamerzonestore.pe</p>
+            <p><strong>Dirección</strong><br>Av. Gamer 123, Lima - Perú</p>
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <div class="form-row">
+            <label>
+              <span>Nombre completo</span>
+              <input type="text" name="nombre" placeholder="Ej. Fernando Zamora" required>
+            </label>
+
+            <label>
+              <span>Correo electrónico</span>
+              <input type="email" name="correo" placeholder="nombre@correo.com" required>
+            </label>
+          </div>
+
+          <label>
+            <span>Asunto</span>
+            <select name="asunto" required>
+              <option value="">Selecciona una opción</option>
+              <option>Consulta de producto</option>
+              <option>Soporte para streaming</option>
+              <option>Cotización empresarial</option>
+              <option>Otro</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Mensaje</span>
+            <textarea name="mensaje" rows="5" placeholder="Cuéntanos qué producto o solución necesitas..." required></textarea>
+          </label>
+
+          <button class="btn btn-primary" type="submit">Enviar consulta</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#inicio" class="logo">
+          <span class="logo-icon">🎮</span>
+          <span>GAMER<span>ZONE</span><small>STORE</small></span>
+        </a>
+        <p>© 2026 GamerZone Store. Todos los derechos reservados.</p>
+      </div>
+
+      <div>
+        <h3>Navegación</h3>
+        <a href="#inicio">Inicio</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#ofertas">Ofertas</a>
+        <a href="#marcas">Marcas</a>
+      </div>
+
+      <div>
+        <h3>Información</h3>
+        <a href="#">Envíos y devoluciones</a>
+        <a href="#">Política de privacidad</a>
+        <a href="#">Términos y condiciones</a>
+      </div>
+
+      <div>
+        <h3>Síguenos</h3>
+        <div class="socials">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">◎</a>
+          <a href="#" aria-label="TikTok">♪</a>
+          <a href="#" aria-label="YouTube">▶</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav');
+
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+      toggle.textContent = open ? '✕' : '☰';
+    });
+
+    document.querySelectorAll('.nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        nav.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.textContent = '☰';
+      });
+    });
+
+    document.querySelector('.contact-form').addEventListener('submit', (event) => {
+      event.preventDefault();
+      alert('¡Consulta enviada correctamente!');
+      event.currentTarget.reset();
+    });
+  </script>
+</body>
+</html>
